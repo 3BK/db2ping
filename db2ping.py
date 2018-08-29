@@ -19,6 +19,10 @@ try:
     ml = re.search(reg, line)
     if ml:
       print ("%s,%s,%s,%s,0" % (indexTime, SERVER, USER, line.split()[2]))
+
+#############
+#TODO: if no ping timea return  pingtime of 3600000000
+#############
       
 except Exception as e: 
   print ("%s,%s,%s,3600000000,1" %(indexTime, SERVER, USER))
