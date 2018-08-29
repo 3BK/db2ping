@@ -14,7 +14,7 @@ db2 catalog tcpip node whatever remote ${TARGET_REMOTE} SERVER ${TARGET_PORT}
 db2 uncatalog database ${TARGET_DB}
 db2 catalog database ${TARGET_DB} at node ${TARGET_NODE}
 
-db2 connect to mxsnd76 user ${TARGET_USR} USING ${TARGET_PASS}
+db2 connect to ${TARGET_DB} user ${TARGET_USR} USING ${TARGET_PASS}
 db2 ping ${TARGET_DB} 3 times
 #echo Elapsed time: 0001 microseconds
 
