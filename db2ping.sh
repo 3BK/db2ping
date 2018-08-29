@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-# TODO outboard the paraters
+# TODO outboard the parameters
 TARGET_NODE='whatever'
 TARGET_REMOTE=$1
 TARGET_PORT='50000'
